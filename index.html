@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Booki</title>
-    <link href="projet_2.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <!--Get your own code at fontawesome.com-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -19,31 +18,28 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <!-- La balise <nav>  doit regrouper tous les principaux liens de navigation du site. Vous y placerez par exemple le menu principal de votre site. Généralement, le menu est réalisé sous forme de liste à l'intérieur de la balise<nav> .-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <!--   L'élément HTML <body> représente le contenu principal du document HTML. Il ne peut y avoir qu'un élément <body> par document.-->
   <body class="style_page">
-    <!-- Le div ci-dessous contient le container global qui contient tout le code du body afin de mettre une propriété css max width pour limiter la largeur min et max de l'écran       -->
+  
     <div class="container_global">
-      <!--Container Haut page Booki et lien hébergements activités -->
+
       <header class="container_haut_page">
-        <!--En tête de page -->
+
         <img class="logo_booki" src="images/logo/booki.png" alt="logo booki" />
         <nav class="texte_haut_page">
-          <!--l'ancre est plus bas sur la même page la bordure doit etre coller au haut de la page  -->
+
           <a class="lien_haut_page" href="#hebergement">Hébergements</a>
           <a class="lien_haut_page" href="#activite">Activités</a>
         </nav>
       </header>
       <section class="conteneur_haut_page">
-        <!--section 1 pour lier le contenu-->
+      
         <h1 class="titre_conteneur_haut_page">
           Trouver votre hébergement pour des vacances de rêve
         </h1>
         <p class="texte_conteneur_haut_page">En plein centre ville ou en pleine nature</p>
-        <!--remplacer div contenant du texte par p -->
-        <!-- <form class="container_recherche" method="get" action=""> -->
+
         <form class="conteneur_recherche">
           <i
             id="formulaire_recherche_location_icone"
@@ -58,10 +54,10 @@
             ><i class="fas fa-search"></i
           ></button>
         </form>
-        <!--La balise <section>  sert à regrouper des contenus en fonction de leur thématique. Elle englobe généralement une portion du contenu au centre de la page.-->
+        
         <section>
           <div class="conteneur_filtre">
-            <!--    <h2 class="style_txt_filtres not_in_my_container"> Filtres</h2> -->
+      
             <div>
               <h2 class="conteneur_filtre_titre">Filtres</h2>
             </div>
@@ -91,30 +87,27 @@
           </p>
         </div>
       </section>
-      <!--La balise <main> permet de déclarer le contenu principal de votre page. Elle englobe la majeure partie du  <body>  d'une page, en excluant les autres éléments tels que le  <header>, le  <footer>  et de potentiels  <aside>. La balise <main> doit être unique : il n'y en a qu'une seule par page :-->
+     
       <main>
         <section>
           <div class="container_hebergements_marseille_les_plus_populaires">
             <div class="container_gauche">
-              <!--ici doit etre en display flex -->
-              <!--   <div class="style_hebergements_marseille_ligne_1"> -->
-              <!--utilise FLEX-WRAP retirer la ligne 49, il faut que le parent soit en display flex -->
-              <!--   <div class="not_in_my_container">-->
+
               <h2 class="container_gauche_titre">
                 Hébergements à Marseille
               </h2>
-              <!--  </div>-->
+
               <div class="conteneur_gauche_carte">
                 <a class="carte_click"href="#">
                 <article class="conteneur_gauche_carte_style">
-                  <!--Hôtel du port -->
+               
                   <img
                     class="conteneur_gauche_image"
                     src="images/hebergements/fred-kleber.jpg"
                     alt="Photo chambre de deux lits simples avec fenêtre"
                   />
                   <h3 class="conteneur_gauche_droite_carte_titre">Hôtel du port</h3>
-                  <!--remplacer partout ici par une balise h3 pour indiquer que c'est un titre -->
+   
                   <p class="conteneur_gauche_carte_texte">
                     Nuit a partir de 52<span class="conteneur_gauche_droite_carte_texte_gras"
                       >€</span
@@ -131,8 +124,7 @@
               </a>
               <a class="carte_click"href="#">
                 <article class="conteneur_gauche_carte_style">
-                  <!--- Renommer les div par des aticles pour le bloc1-->
-                  <!--Hôtel chez Amina -->
+        
                   <img
                     class="conteneur_gauche_image"
                     src="images/hebergements/febrian-zakaria.jpg"
@@ -154,7 +146,7 @@
               </a>
               <a class="carte_click"href="#">
                 <article class="conteneur_gauche_carte_style">
-                  <!--Hôtel les mouettes -->
+      
                   <img
                     class="conteneur_gauche_image"
                     src="images/hebergements/reisetopia.jpg"
@@ -176,7 +168,7 @@
               </a>
               <a class="carte_click"href="#">
                 <article class="conteneur_gauche_carte_style">
-                  <!--Hôtel de la mer -->
+           
                   <img
                     class="conteneur_gauche_image"
                     src="images/hebergements/annie-spratt.jpg"
@@ -199,7 +191,7 @@
               </a>
               <a class="carte_click"href="#">
                 <article class="conteneur_gauche_carte_style">
-                  <!--Auberge La Canebière-->
+   
                   <img
                     class="conteneur_gauche_image"
                     src="images/hebergements/marcus-loke.jpg"
@@ -222,7 +214,7 @@
               </a>
               <a class="carte_click"href="#">
                 <article class="conteneur_gauche_carte_style">
-                  <!--Auberge Le Panier -->
+      
                   <img
                     class="conteneur_gauche_image"
                     src="images/hebergements/nicate-lee.jpg"
@@ -246,7 +238,7 @@
               </div>
               <div class="block_afficher_plus">
                 <a class="afficher_plus" href="#">Afficher plus</a>
-                <!--remplacer par une balise a pour pouvoir cliquer -->
+  
               </div>
             </div>
 
@@ -335,7 +327,7 @@
           </div>
         </section>
       </main>
-      <!--    <h2 id="activite" class="title_activites_marseille">Activités à Marseille</h2>  -->
+
       <h2 class="titre_activites_marseille">
         Activités à Marseille
       </h2>
@@ -384,10 +376,9 @@
         </article>
       </section>
       <footer class="conteneur_bas_page">
-        <!--Container  de la partie footer -->
+
         <div class="conteneur_bas_page_block">
-          <!--conserver les div -->
-          <!--cmettre des liens -->
+
           <h2 class="conteneur_bas_page_block_titre">À propos</h2>
           <a class="conteneur_bas_page_block_lien" href="#">Fonctionnement du site</a>
           <a class="conteneur_bas_page_block_lien" href="#">Conditions générales</a>

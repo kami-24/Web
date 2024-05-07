@@ -4,8 +4,7 @@
 
 .container_global {
   margin: auto;
-  max-width: 1440px; /* Largeur maximale de la page */
-  /*min-width: 320px; */ /* Largeur minimale de la page */
+  max-width: 1440px;
   text-align: left;
 }
 
@@ -16,9 +15,6 @@ body {
   margin-left: 25px;
 }
 
-/***************************************************    
-                  Partie HEAD
-****************************************************/
 h2 {
   font-size: 22px;
 }
@@ -34,7 +30,7 @@ h2 {
   text-decoration: none;
   margin-right: 20px;
   color: black;
-  font-family: "Raleway", sans-serif;/* Retirer les font familu car elles sont sur le body*/
+  font-family: "Raleway", sans-serif;
 }
 .lien_haut_page:hover {
   color: #0065fc;
@@ -48,9 +44,7 @@ h2 {
   object-fit: cover;
 }
 
-/***************************************************    
-                  Partie Recherche 
-****************************************************/
+
 
 .titre_conteneur_haut_page {
   margin-top: 50px;
@@ -67,7 +61,7 @@ h2 {
 .conteneur_recherche {
   display: flex;
   margin-bottom: 20px;
-  height: 40px; /*garder le px car c est la meme hauteur entre mobile et desktop*/
+  height: 40px; 
   margin-top: 30px;
 }
 
@@ -117,12 +111,10 @@ h2 {
   display: none;
 }
 
-/***************************************************    
-                Partie Filtres
-****************************************************/
+
 
 .conteneur_filtre {
-  display: flex; /*utiliser flex box en ligne pas en grid-- utiliser le flex-wrap , la taille devra sajuster automatiquement*/
+  display: flex; 
   gap: 10px;
   padding-top: 15px;
 }
@@ -194,11 +186,8 @@ h2 {
   border: 2px solid #f2f2f2;
 }
 
-/***************************************************    
-                Hébergements a Marseille
-****************************************************/
+
 .container_gauche_titre {
-    /* padding-left: 25px; */
       display: flex;
       justify-content: space-between;
       margin-top: 25px;
@@ -293,9 +282,6 @@ h2 {
   flex:1;
 }
 
-/***************************************************    
-                Activités a Marseille
-****************************************************/
 
 .container_hebergements_marseille_les_plus_populaires {
   display: flex;
@@ -308,7 +294,7 @@ h2 {
   gap: 30px;
   flex: 2;
   border-radius: 30px;
-  position: relative; /**sert a positionner les elements de la class .not_in_my_container a lexterieur du container*/
+  position: relative;
   border: none;
   padding-left: 20px;
   padding-right: 20px;
@@ -369,7 +355,7 @@ h2 {
   margin-left: 25px;
   margin-right: 25px;
   box-shadow: rgb(153 147 147 / 20%) 0px 2px 8px 0px;
- /* flex:1;*/
+
 }
 
 .conteneur_droite_carte_image {
@@ -420,9 +406,6 @@ h2 {
   margin-left: 10px;
 }
 
-/***************************************************    
-                        FOOTER
-****************************************************/
 .conteneur_bas_page {
   display: flex;
   flex-direction: row;
@@ -450,14 +433,11 @@ h2 {
   height: 150px;
 }
 
-/***************************************************    
-                  MEDIA QUERIES
-****************************************************/
 
-/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .container_global {
-    max-width: 1024px; /* Adapter la largeur maximale à la taille de l'écran de la tablette */
+    max-width: 1024px; 
   }
 
   .container_hebergements_marseille_les_plus_populaires {
@@ -592,7 +572,6 @@ body {
     box-shadow: 20px 5px 45px rgb(217 217 217 / 50%);
     font-family: roboto, sans-serif;
     font-size: 95%;
-  /*  text-shadow: 5px 5px 10px #ababb5;*/
     margin-left: -8px;
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
   }
@@ -602,8 +581,7 @@ body {
   }
 
   .conteneur_gauche_carte_style {
-    /*background-color: white;
-  border-radius: 10px 10px 10px 10px;*/
+
     border: grey;
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
   }
@@ -631,8 +609,7 @@ body {
   border-bottom: 2px solid #f2f2f2;
 }
 .formulaire_recherche_texte {
-  /*width: 150px;
-  border: 2px solid rgb(210, 204, 204);*/
+
   flex: 1;
 }
 .conteneur_haut_page{
