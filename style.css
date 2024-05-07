@@ -381,7 +381,7 @@ h2 {
   border-radius: 10px 10px 0px 0px;
   border: none;
 }
-.conteneur_activites_marseille {
+.conteneur_activites_marseille_carte {
   display: flex;
   gap: 35px;
   margin-left: 35px;
@@ -476,6 +476,10 @@ h2 {
   .full_star_populaire {
     margin-left: 8px;
   }
+
+  .carte_activite_marseille_image {
+    height: 190px;
+  }
 }
 
 @media screen and (max-width: 767.999px) {
@@ -505,7 +509,7 @@ h2 {
   .container_hebergements_marseille_les_plus_populaires {
     flex-direction: column;
   }
-  .conteneur_activites_marseille {
+  .conteneur_activites_marseille_carte {
     flex-direction: column;
   }
   .carte_activites_marseille {
