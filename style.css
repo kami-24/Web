@@ -19,7 +19,6 @@ h2 {
   font-size: 22px;
 }
 
-
 .container_haut_page {
   display: flex;
   justify-content: space-between;
@@ -44,8 +43,6 @@ h2 {
   object-fit: cover;
 }
 
-
-
 .titre_conteneur_haut_page {
   margin-top: 50px;
   margin-bottom: 2px;
@@ -61,14 +58,14 @@ h2 {
 .conteneur_recherche {
   display: flex;
   margin-bottom: 20px;
-  height: 40px; 
+  height: 40px;
   margin-top: 30px;
 }
 
 .formulaire_recherche_boutton {
   display: block;
   text-decoration: none;
-  background-color: #0065FC;
+  background-color: #0065fc;
   color: #fff;
   border: none;
   border-radius: 0px 10px 10px 0px;
@@ -83,7 +80,7 @@ h2 {
 }
 
 #formulaire_recherche_location_icone {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   width: 40px;
   font-size: 18px;
   display: flex;
@@ -96,7 +93,7 @@ h2 {
 
 .formulaire_recherche_texte {
   width: 150px;
-  border: 1px solid  #F2F2F2;
+  border: 1px solid #f2f2f2;
 }
 
 .formulaire_recherche_texte::placeholder {
@@ -111,10 +108,8 @@ h2 {
   display: none;
 }
 
-
-
 .conteneur_filtre {
-  display: flex; 
+  display: flex;
   gap: 10px;
   padding-top: 15px;
 }
@@ -130,7 +125,7 @@ h2 {
 }
 
 .conteneur_filtre_bouton {
-  border: 2px solid #D9D9D9;
+  border: 2px solid #d9d9d9;
   border-radius: 30px 30px 30px 30px;
   font-weight: bold;
   display: flex;
@@ -155,7 +150,7 @@ h2 {
 }
 
 .filtres_icone {
-  color: #0065FC;
+  color: #0065fc;
   padding-right: 7px;
   font-size: 18px;
 }
@@ -165,15 +160,15 @@ h2 {
   margin-top: 15px;
 }
 
-.conteneur_information_texte{
+.conteneur_information_texte {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
- margin-left: 10px;
+  margin-left: 10px;
 }
 
 .info_style {
   font-size: 12px;
-  color: #0065FC;
+  color: #0065fc;
 }
 
 .conteneur_information_cercle {
@@ -186,14 +181,13 @@ h2 {
   border: 2px solid #f2f2f2;
 }
 
-
 .container_gauche_titre {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 25px;
-      margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-.conteneur_droite_titre{
+.conteneur_droite_titre {
   padding-left: 25px;
   display: flex;
   justify-content: space-between;
@@ -265,23 +259,22 @@ h2 {
   margin-left: 10px;
 }
 
-.sous_container_droit{
- display: flex;
- flex-direction: column;
+.sous_container_droit {
+  display: flex;
+  flex-direction: column;
 }
 
-.block_afficher_plus{
+.block_afficher_plus {
   display: block;
   margin-bottom: 15px;
   margin-top: 15px;
 }
 
-.carte_click{
+.carte_click {
   text-decoration: none;
   color: black;
-  flex:1;
+  flex: 1;
 }
-
 
 .container_hebergements_marseille_les_plus_populaires {
   display: flex;
@@ -320,7 +313,7 @@ h2 {
   flex-wrap: wrap;
 }
 
-.conteneur_gauche_image{
+.conteneur_gauche_image {
   width: 100%;
   height: 150px;
   object-fit: cover;
@@ -346,7 +339,7 @@ h2 {
   gap: 25px;
 }
 
-.conteneur_droite_carte_style{
+.conteneur_droite_carte_style {
   background-color: white;
   border-radius: 20px;
   border: none;
@@ -355,7 +348,6 @@ h2 {
   margin-left: 25px;
   margin-right: 25px;
   box-shadow: rgb(153 147 147 / 20%) 0px 2px 8px 0px;
-
 }
 
 .conteneur_droite_carte_image {
@@ -368,7 +360,7 @@ h2 {
   padding-top: 5px;
 }
 
-.titre_activites_marseille{
+.titre_activites_marseille {
   margin-left: 25px;
   margin-top: 40px;
 }
@@ -433,11 +425,9 @@ h2 {
   height: 150px;
 }
 
-
-
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .container_global {
-    max-width: 1024px; 
+    max-width: 1024px;
   }
 
   .container_hebergements_marseille_les_plus_populaires {
@@ -447,7 +437,7 @@ h2 {
   .conteneur_droite_carte {
     display: flex;
     flex-direction: row;
-    gap:0px;
+    gap: 0px;
   }
 
   .img_activites_marseille {
@@ -464,30 +454,28 @@ h2 {
     flex-direction: column;
   }
 
-.style_page{
-  margin-left: 30px;
-  margin-right: 30px;
-}
-body {
-  margin-right: 0px;
-  margin-left: 0px;
-}
-.conteneur_droite_carte_image {
-  width: 100px;
-}
-.conteneur_gauche_droite_carte_titre {
-  margin-left: 15px;
-}
+  .style_page {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  body {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .conteneur_droite_carte_image {
+    width: 100px;
+  }
+  .conteneur_gauche_droite_carte_titre {
+    margin-left: 15px;
+  }
 
-.conteneur_droite_carte_texte{
-  margin-left: 8px;
-}
+  .conteneur_droite_carte_texte {
+    margin-left: 8px;
+  }
 
-.full_star_populaire {
-  margin-left: 8px;
-}
-
-
+  .full_star_populaire {
+    margin-left: 8px;
+  }
 }
 
 @media screen and (max-width: 767.999px) {
@@ -524,7 +512,7 @@ body {
     width: 100%;
     margin-bottom: 0px;
   }
-  .carte_activite_marseille_image{
+  .carte_activite_marseille_image {
     width: 100%;
     height: 160px;
   }
@@ -561,7 +549,7 @@ body {
   .formulaire_recherche_mobile {
     display: block;
     text-decoration: none;
-    background-color: #0065FC;
+    background-color: #0065fc;
     color: #fff;
     border: none;
     border-radius: 10px 10px 10px 10px;
@@ -581,19 +569,17 @@ body {
   }
 
   .conteneur_gauche_carte_style {
-
     border: grey;
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
   }
 
-  .conteneur_bas_page{
+  .conteneur_bas_page {
     margin-top: 50px;
   }
   .conteneur_bas_page_block {
     margin-left: 40px;
     width: auto;
     padding-bottom: 40px;
-    
   }
   .lien_haut_page:hover {
     color: #0065fc;
@@ -601,28 +587,26 @@ body {
     padding-bottom: 18px;
     border-top: 0px solid white;
     padding-top: 0px;
-}
-.lien_haut_page {
-  border-bottom: 1px solid #f2f2f2;
-  margin-right: 0px;
-  padding-bottom: 18px;
-  border-bottom: 2px solid #f2f2f2;
-}
-.formulaire_recherche_texte {
-
-  flex: 1;
-}
-.conteneur_haut_page{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-body {
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-bottom:0px;
-}
-.conteneur_droite_carte {
-  margin-bottom: 30px;
-}
-
+  }
+  .lien_haut_page {
+    border-bottom: 1px solid #f2f2f2;
+    margin-right: 0px;
+    padding-bottom: 18px;
+    border-bottom: 2px solid #f2f2f2;
+  }
+  .formulaire_recherche_texte {
+    flex: 1;
+  }
+  .conteneur_haut_page {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  body {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .conteneur_droite_carte {
+    margin-bottom: 30px;
+  }
 }
