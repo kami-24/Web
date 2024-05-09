@@ -38,9 +38,7 @@ h2 {
 }
 
 .logo_booki {
-  width: 100px;
-  height: 100%;
-  object-fit: cover;
+  width: 80px;
 }
 
 .titre_conteneur_haut_page {
@@ -191,6 +189,8 @@ h2 {
   padding-left: 25px;
   display: flex;
   justify-content: space-between;
+  padding-top: 6px;
+  padding-bottom: 4px;
 }
 
 .fa-solid.fa-chart-line {
@@ -480,6 +480,19 @@ h2 {
   .carte_activite_marseille_image {
     height: 190px;
   }
+
+  .conteneur_droite_titre {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .lien_haut_page:hover {
+    padding-top: 19px;
+  }
+  .conteneur_recherche {
+    margin-bottom: 0px; 
+}
+
+
 }
 
 @media screen and (max-width: 767.999px) {
@@ -612,5 +625,10 @@ h2 {
   }
   .conteneur_droite_carte {
     margin-bottom: 30px;
+  }
+
+  .conteneur_droite_titre {
+    padding-bottom: 0px;
+    padding-top: 0px;
   }
 }
